@@ -1,5 +1,3 @@
-create sequence hibernate_sequence minvalue 100;
-
 create table users (
     id          integer primary key,
     username    varchar(255) unique,
